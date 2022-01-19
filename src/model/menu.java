@@ -20,6 +20,8 @@ public class menu {
                 authorization();
                 break;
             case 2:
+
+                //// اینجا برای user اضافه بشه
                 ui_menu uuuu=new ui_menu();
                 uuuu.selectionMenu();
                 int select =scan.nextInt();
@@ -36,7 +38,7 @@ public class menu {
         }
 
     }
-    public menu(int inputMenue) {
+    public menu() {
 
         /*switch (inputMenue) {
             case 1:

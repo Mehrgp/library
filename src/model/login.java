@@ -1,5 +1,5 @@
 package model;
-
+import view.uiAdminMenu;
 
 public class login {
     private String name = "admin";
@@ -10,6 +10,7 @@ public class login {
         name = name.toLowerCase();
         pass = pass.toLowerCase();
         this.loginAdmin(name, pass);
+        uiAdminMenu uiAdmin=new uiAdminMenu();
     }
 
     public void getlogin() {
